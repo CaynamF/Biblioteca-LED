@@ -81,8 +81,6 @@ void Led::piscar()
   tempoEspera = 500;
   tempoAnteriorPiscar = millis();
   estado = HIGH;
-  estadoPiscar = false; //Reseta os valores
-  desligarPorTempo = false; //Reseta os valores
 }
 
 void Led::piscar(float frequencia)
